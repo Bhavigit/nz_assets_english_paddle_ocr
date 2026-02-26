@@ -13,7 +13,7 @@ app = Flask(__name__)
 app.logger.setLevel(logging.INFO)
 
 
-# Load PaddleOCR model (loaded once at startup)
+# Load PaddleOCR model 
 
 print("Loading PaddleOCR model...")
 ocr = PaddleOCR(lang='en')
